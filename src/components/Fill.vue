@@ -5,24 +5,11 @@
     </div>
 </template>
 
-<script>
+<script src="../scripts/fill.js">
 
-export default {
-  name: 'Fill',
-  data(){
-      return {
-          counter : 0
-      }
-  },
-  props:['name']
-}
+
 </script>
 
-<style scoped>
-    .item-component{
-        width:30%;
-        background-color:white;
-        border:solid green; 
-
-    }
+<style src="../styles/css/fill.css" scoped>
+    
 </style>

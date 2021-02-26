@@ -5,26 +5,8 @@
     </div>
 </template>
 
-<script>
-import Fill from './Fill'
-
-export default {
-  name: 'Pare',
-  components:{
-      Fill
-  },
-  data(){
-     return{
-         items: ["item 1","item 2","item 3"]
-     } 
-  }
-}
+<script src="../scripts/pare.js">
 </script>
 
-<style scoped>
-    .container{
-        background-color:rgb(175, 170, 170);
-        border:solid green 3px;
-        border-radius:2rem;
-    }
+<style src="../styles/css/pare.css" scoped>   
 </style>
