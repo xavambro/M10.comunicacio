@@ -7,7 +7,9 @@ export default {
   },
   data(){
      return{
-         items: ["item 1","item 2","item 3"]
+         items:[{name:'item1',counter:0},
+                {name:'item2',counter:0},
+                {name:'item3',counter:0}] 
      } 
   }
 }
